@@ -1,0 +1,8 @@
+set terminal svg; \
+set output "fig_gamma.svg"; \
+set tics out; \
+set xlabel "x"; \
+set ylabel "Gamma(x)"; \
+plot [][0:10] \
+	"gamma.dat" index 0 using 1:2 with points pt 7 ps 0.5 title "Tabulated",\
+	"gamma.dat" index 1 using 1:3 with lines title "gamma(x)";

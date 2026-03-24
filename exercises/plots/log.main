@@ -1,0 +1,14 @@
+i= 0 arg=./main
+i= 1 arg=-xmin
+i= 2 arg=-5
+i= 3 arg=-xmax
+i= 4 arg=5
+i= 5 arg=-dx
+i= 6 arg=0.5
+i= 7 arg=-dx2
+i= 8 arg=0.01
+xmin= -5
+xmax= 5
+dx= 0.5
+dx2= 0.01
+Data written to erf.dat, gamma.dat, and lngamma.dat

@@ -1,0 +1,11 @@
+set terminal svg; \
+set output "fig_times.svg"; \
+set tics in; \
+set xlabel "threads"; \
+set ylabel "elapsed time"; \
+a=1; b=10;\
+f(x)=a+b/x;\
+fit f(x) "out.times" using 1:2 via a,b; \
+plot \
+	"out.times" index 0 using 1:2 with linespoints title "times", \
+	f(x) title "fit to 1/n";

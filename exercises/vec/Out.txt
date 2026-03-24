@@ -1,0 +1,17 @@
+----Print vector----
+v = 1 2 3
+w = 0.5 -0.5 1.5
+Overloaded <<:{ 1, 2, 3 } 
+Overloaded <<:{ 0.5, -0.5, 1.5 } 
+----Add----
+v + w = 1.5 1.5 4.5
+----subtract----
+v - w = 0.5 2.5 1.5
+----multiply----
+2 * v = 2 4 6
+----norm----
+norm = 3.74166
+----cross-product----
+v x w = 4.5 0 -1.5
+----dot-product----
+v * w = 4

@@ -1,0 +1,21 @@
+-----------PART 1------------
+float eps=1.19209e-07
+double eps=2.22045e-16
+long double eps=1.0842e-19
+1.19209e-07
+2.22045e-16
+1.0842e-19
+Calculated epsilon double (2^-52)=2.22045e-16
+Calculated epsilon float (2^-23)=1.19209e-07
+-----------PART 2------------
+a==b ? false
+a>1  ? false
+b>1  ? true
+tiny=0.00000000000000011
+1+tiny+tiny=1.00000000000000000
+tiny+tiny+1=1.00000000000000022
+-----------PART 3------------
+d1==d2? false
+d1=0.79999999999999993
+d2=0.80000000000000004
+d1==d2? 1
