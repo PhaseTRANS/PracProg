@@ -1,0 +1,2 @@
+The project includes a cubic spline which takes data in the format (x,y,y') and returns the spline, it's derivative and integral as well as the coefficients. 
+I think i did everything assigned, but the plot is kind of weird so i would estimate my points at [8,10] i guess.
